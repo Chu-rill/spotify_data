@@ -1,0 +1,18 @@
+{
+  "name": "spotify_data",
+  "version": "1.0.0",
+  "description": "Analyzes your Spotify listening data collected through IFTTTT and stored in Google Sheets <br> <br> <b>WARNING!</b> I have no idea how to stop IFTTTT from logging all of my data into Google Sheets. If you don't want it to log your songs forever, continue at your own risk. (Mine has been logging songs for literal years with no end in sight)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.8.4"
+  }
+}
